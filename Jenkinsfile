@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         MAVEN_HOME = tool 'Maven3'
-        SONARQUBE_SERVER = 'SonarQube'
+        SONARQUBE_SERVER = 'SonarQubeToken'
         NEXUS_CREDENTIALS = credentials('nexus-creds')
         //TOMCAT_CREDENTIALS = credentials('tomcat-creds')
         TOMCAT_URL = 'http://tomcat-host:9080/manager/text'
